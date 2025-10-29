@@ -1,9 +1,8 @@
-ReplicaNumber: 3
-     
+ReplicaNumber: 3   
 containers:
   containerPort: 8080
   image: 'quay.io/ksindy/open-shift-tutorial:v2'
   tag: 'base'
      
-  service:
+service:
   servicePort: 8080
